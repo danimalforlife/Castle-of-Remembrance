@@ -1,0 +1,29 @@
+title: Castle of Remembrance
+originalAuthor: danimalforlife
+description: Fixes the text in CoR to say Castle instead of Cave.
+
+assets:
+- name: remastered\map\us\hb21.bar\US_hb21_bar0.dds
+  method: copy
+  source:
+  - name: transitions\depths.dds
+
+- name: remastered\map\us\hb22.bar\US_hb22_bar0.dds
+  method: copy
+  source:
+  - name: transitions\mining.dds
+
+- name: remastered\map\us\hb23.bar\US_hb23_bar0.dds
+  method: copy
+  source:
+  - name: transitions\engine.dds
+
+- name: remastered\map\us\hb24.bar\US_hb24_bar0.dds
+  method: copy
+  source:
+  - name:  transitions\mineshaft.dds
+
+- name: remastered\map\us\hb25.bar\US_hb25_bar0.dds
+  method: copy
+  source:
+  - name:  transitions\transport.dds
